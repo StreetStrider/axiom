@@ -42,6 +42,9 @@
     "rootpath":
       "StreetStrider/rootpath#v1.8.0",
 
+    "randomstring":
+      "1",
+
     "dir-compare":
       "1"
   }
