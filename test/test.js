@@ -12,7 +12,7 @@ var compare = require('dir-compare').compareSync
 
 var less = (...args) => require('less').render(...args)
 
-var filename = rootpath('test/test.less')
+var filename = rootpath('test/case/index.less')
 var contents = read(filename)
 
 
