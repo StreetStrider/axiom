@@ -35,8 +35,8 @@ less(contents, { filename })
 
 	if (! delta.same)
 	{
-		console.warn('result differs')
-		console.log(`meld ${tmp} ${fix}`)
+		console.warn('result differs', '\n')
+		console.log(`meld ${tmp} ${fix}`, '\n')
 
 		throw new Error('result_differs')
 	}
