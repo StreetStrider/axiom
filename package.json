@@ -26,6 +26,8 @@
 
   "peerDependencies":
   {
+    "less":
+      "2"
   },
 
   "dependencies":
