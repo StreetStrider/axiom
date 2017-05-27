@@ -1,4 +1,5 @@
 
+var ext = '.case.less';
 var wait_for_all = (...args) => Promise.all(...args)
 
 var tmpdir = require('os').tmpdir
@@ -24,17 +25,17 @@ console.log(rootpath_tmp())
 Promise.resolve()
 .then(() =>
 {
-	return find(rootpath('test/case/*.less'))
+	return find(rootpath('test/case/*' + ext))
 })
 .then(paths =>
 {
-	return paths.map(path => base(path, '.less'))
+	return paths.map(path => base(path, ext))
 })
 .then(names =>
 {
 	return names.map(name =>
 	{
-		var filename = rootpath('test/case/', name + '.less')
+		var filename = rootpath('test/case/', name + ext)
 		var contents = read(filename)
 
 		return less(contents, { filename })
