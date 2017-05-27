@@ -1,0 +1,10 @@
+.pseudo-default {
+  content: '';
+}
+.pseudo-block {
+  content: '';
+  display: block;
+}
+.pseudo-content {
+  content: '→';
+}
