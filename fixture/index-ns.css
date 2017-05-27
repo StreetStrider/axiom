@@ -5,5 +5,48 @@
   content: '';
   display: block;
   content: '=';
+}
+.integration-ns-flex {
   display: flex;
+  flex-grow: 1;
+  flex-grow: 3;
+  flex-shrink: 1;
+  flex-shrink: 0;
+}
+.integration-ns-flex > * {
+  flex-grow: 1;
+}
+.integration-ns-flex > * {
+  flex-shrink: 0;
+}
+.integration-ns-flex > * {
+  flex-shrink: 0;
+}
+.integration-ns-flex > * {
+  flex-basis: 200px;
+}
+.integration-ns-flex > * {
+  flex-basis: 200px;
+}
+.integration-ns-flex > * {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.integration-ns-flex > * {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.integration-ns-flex > * {
+  flex-shrink: 0;
+  flex-basis: 200px;
+}
+.integration-ns-flex > * {
+  flex-shrink: 0;
+  flex-basis: 200px;
+}
+.integration-ns-flex > * {
+  flex: 0 0 auto;
+}
+.integration-ns-flex > * {
+  flex: 1 0 auto;
 }

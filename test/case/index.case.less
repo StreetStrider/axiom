@@ -11,6 +11,24 @@
 	.pseudo;
 	.pseudo(block);
 	.pseudo('x');
+}
 
+.integration-flex
+{
 	.flex;
+	.flex(1);
+	.flex(@shrink: 0);
+	.flex(_; 0);
+	.flex(@basis: 200px);
+	.flex(_; _; 200px);
+	.flex(1; 0);
+	.flex(@grow: 1; @shrink: 0);
+	.flex(@shrink: 0; @basis: 200px);
+	.flex(_; 0; 200px);
+	.flex(0; 0; auto);
+	.flex(1; 0; auto);
+	.grow;
+	.grow(3);
+	.shrink;
+	.shrink(0);
 }
