@@ -35,11 +35,14 @@
     "less":
       "2",
 
+    "rootpath":
+      "StreetStrider/rootpath#v1.8.0",
+
     "fs-sync":
       "1",
 
-    "rootpath":
-      "StreetStrider/rootpath#v1.8.0",
+    "globule":
+      "1",
 
     "randomstring":
       "1",
