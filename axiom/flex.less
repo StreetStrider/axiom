@@ -1,5 +1,31 @@
 
-.flex ()
+.flex (@grow: _, @shrink: _, @basis: _)
 {
 	display: flex;
+}
+
+.flex (@grow: _, @shrink: _, @basis: _)
+{
+	& > *
+	{
+		& when (not (@grow = _) and not (@shrink = _) and not (@basis = _))
+		{
+			flex: @grow @shrink @basis;
+		}
+		& when ((@grow = _) or (@shrink = _) or (@basis = _))
+		{
+			& when not (@grow = _)
+			{
+				flex-grow: @grow;
+			}
+			& when not (@shrink = _)
+			{
+				flex-shrink: @shrink;
+			}
+			& when not (@basis = _)
+			{
+				flex-basis: @basis;
+			}
+		}
+	}
 }
