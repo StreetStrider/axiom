@@ -1,0 +1,9 @@
+.integration-ns {
+  display: inline-block;
+  display: inline;
+  display: flex;
+  display: none;
+  content: '';
+  display: block;
+  content: '=';
+}
