@@ -71,3 +71,15 @@
 .flex-flex2 > * {
   flex: 1 0 auto;
 }
+.grow {
+  flex-grow: 1;
+}
+.grow-extra {
+  flex-grow: 2;
+}
+.shrink {
+  flex-shrink: 1;
+}
+.no-shrink {
+  flex-shrink: 0;
+}
