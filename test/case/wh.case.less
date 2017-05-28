@@ -1,0 +1,40 @@
+
+#axiom
+{
+	@import (reference) '../../axiom/wh';
+}
+
+.wh-w
+{
+	#axiom > .wh(100%);
+}
+
+.wh-h1
+{
+	#axiom > .wh(_; 50px);
+}
+
+.wh-h2
+{
+	#axiom > .wh(@height: 50px);
+}
+
+.wh-wh1
+{
+	#axiom > .wh(100%; 50px);
+}
+
+.wh-wh2
+{
+	#axiom > .wh(@width: 100%; @height: 50px);
+}
+
+.wh-wh-eq1
+{
+	#axiom > .wh(100%; eq);
+}
+
+.wh-wh-eq2
+{
+	#axiom > .wh(@width: 100%; @height: eq);
+}

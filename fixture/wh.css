@@ -1,0 +1,25 @@
+.wh-w {
+  width: 100%;
+}
+.wh-h1 {
+  height: 50px;
+}
+.wh-h2 {
+  height: 50px;
+}
+.wh-wh1 {
+  width: 100%;
+  height: 50px;
+}
+.wh-wh2 {
+  width: 100%;
+  height: 50px;
+}
+.wh-wh-eq1 {
+  width: 100%;
+  height: 100%;
+}
+.wh-wh-eq2 {
+  width: 100%;
+  height: 100%;
+}
