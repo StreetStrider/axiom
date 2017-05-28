@@ -32,3 +32,27 @@
 	.shrink;
 	.shrink(0);
 }
+
+.integration-wh
+{
+	.wh(100%);
+	.wh(_; 50px);
+	.wh(@height: 50px);
+	.wh(100%; 50px);
+	.wh(@width: 100%; @height: 50px);
+	.wh(100%; eq);
+	.wh(@width: 100%; @height: eq);
+	.wh(_; eq);
+
+	.whl(100%);
+	.whl(_; 75px);
+	.whl(@height: 75px);
+	.whl(100%; 75px);
+	.whl(@width: 100%; @height: 75px);
+	.whl(100%; eq);
+	.whl(@width: 100%; @height: eq);
+	.whl(_; eq);
+
+	.hl(75px);
+	.hl(_);
+}

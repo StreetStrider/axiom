@@ -35,3 +35,27 @@
 	#axiom > .shrink;
 	#axiom > .shrink(0);
 }
+
+.integration-ns-wh
+{
+	#axiom > .wh(100%);
+	#axiom > .wh(_; 50px);
+	#axiom > .wh(@height: 50px);
+	#axiom > .wh(100%; 50px);
+	#axiom > .wh(@width: 100%; @height: 50px);
+	#axiom > .wh(100%; eq);
+	#axiom > .wh(@width: 100%; @height: eq);
+	#axiom > .wh(_; eq);
+
+	#axiom > .whl(100%);
+	#axiom > .whl(_; 75px);
+	#axiom > .whl(@height: 75px);
+	#axiom > .whl(100%; 75px);
+	#axiom > .whl(@width: 100%; @height: 75px);
+	#axiom > .whl(100%; eq);
+	#axiom > .whl(@width: 100%; @height: eq);
+	#axiom > .whl(_; eq);
+
+	#axiom > .hl(75px);
+	#axiom > .hl(_);
+}

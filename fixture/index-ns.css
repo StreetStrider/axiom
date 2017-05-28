@@ -50,3 +50,11 @@
 .integration-ns-flex > * {
   flex: 1 0 auto;
 }
+.integration-ns-wh {
+  height: 50px;
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+  height: 75px;
+  line-height: 75px;
+}
