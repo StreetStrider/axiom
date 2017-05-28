@@ -1,4 +1,6 @@
 
+@import (reference) '_/prop-dash';
+
 .flex (@grow: _, @shrink: _, @basis: _)
 {
 	display: flex;
@@ -14,18 +16,9 @@
 		}
 		& when ((@grow = _) or (@shrink = _) or (@basis = _))
 		{
-			& when not (@grow = _)
-			{
-				flex-grow: @grow;
-			}
-			& when not (@shrink = _)
-			{
-				flex-shrink: @shrink;
-			}
-			& when not (@basis = _)
-			{
-				flex-basis: @basis;
-			}
+			.prop-dash(flex-grow; @grow);
+			.prop-dash(flex-shrink; @shrink);
+			.prop-dash(flex-basis; @basis);
 		}
 	}
 }
