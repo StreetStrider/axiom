@@ -1,0 +1,19 @@
+
+@import (reference) 'wh';
+
+.whl (@width: _; @height: _)
+{
+	.wh(@width; @height);
+
+	& when not (@height = _)
+	{
+		& when not (@height = eq)
+		{
+			line-height: @height;
+		}
+		& when (@height = eq) and not (@width = _)
+		{
+			line-height: @width;
+		}
+	}
+}

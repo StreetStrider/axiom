@@ -1,0 +1,47 @@
+
+#axiom
+{
+	@import (reference) '../../axiom/whl';
+}
+
+.whl-w
+{
+	#axiom > .whl(100%);
+}
+
+.whl-h1
+{
+	#axiom > .whl(_; 75px);
+}
+
+.whl-h2
+{
+	#axiom > .whl(@height: 75px);
+}
+
+.whl-wh1
+{
+	#axiom > .whl(100%; 75px);
+}
+
+.whl-wh2
+{
+	#axiom > .whl(@width: 100%; @height: 75px);
+}
+
+.whl-wh-eq1
+{
+	#axiom > .whl(100%; eq);
+}
+
+.whl-wh-eq2
+{
+	#axiom > .whl(@width: 100%; @height: eq);
+}
+
+.whl-wh-eq-empty
+{
+	present: yes;
+
+	#axiom > .whl(_; eq);
+}

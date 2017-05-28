@@ -1,0 +1,34 @@
+.whl-w {
+  width: 100%;
+}
+.whl-h1 {
+  height: 75px;
+  line-height: 75px;
+}
+.whl-h2 {
+  height: 75px;
+  line-height: 75px;
+}
+.whl-wh1 {
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+}
+.whl-wh2 {
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+}
+.whl-wh-eq1 {
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+}
+.whl-wh-eq2 {
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+}
+.whl-wh-eq-empty {
+  present: yes;
+}
