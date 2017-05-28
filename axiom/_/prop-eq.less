@@ -1,0 +1,15 @@
+
+.prop-eq (@prop; @value-fallback: _; @value: _)
+{
+	& when not (@value = _)
+	{
+		& when not (@value = eq)
+		{
+			@{prop}: @value;
+		}
+		& when (@value = eq) and not (@value-fallback = _)
+		{
+			@{prop}: @value-fallback;
+		}
+	}
+}

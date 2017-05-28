@@ -1,17 +1,12 @@
 
+@import (reference) '_/prop-eq';
+
 .wh (@width: _; @height: _) when not (@width = _)
 {
 	width: @width;
 }
 
-.wh (@width: _; @height: _) when not (@height = _)
+.wh (@width: _; @height: _)
 {
-	& when not (@height = eq)
-	{
-		height: @height;
-	}
-	& when (@height = eq) and not (@width = _)
-	{
-		height: @width;
-	}
+	.prop-eq(height; @width; @height);
 }
