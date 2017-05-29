@@ -36,19 +36,28 @@
 {
 	position: relative;
 
-	.pos(@rest...);
+	& when (length(@rest) > 0)
+	{
+		.pos(@rest...);
+	}
 }
 
 .absolute (@rest...)
 {
 	position: absolute;
 
-	.pos(@rest...);
+	& when (length(@rest) > 0)
+	{
+		.pos(@rest...);
+	}
 }
 
 .fixed (@rest...)
 {
 	position: fixed;
 
-	.pos(@rest...);
+	& when (length(@rest) > 0)
+	{
+		.pos(@rest...);
+	}
 }
