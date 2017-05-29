@@ -13,9 +13,17 @@
   top: 10px;
   left: 20px;
 }
+.pos-tl-0 {
+  top: 0;
+  left: 0;
+}
 .pos-tl {
   top: 10px;
   left: 20px;
+}
+.pos-br-0 {
+  bottom: 0;
+  right: 0;
 }
 .pos-br-b {
   bottom: 10px;
