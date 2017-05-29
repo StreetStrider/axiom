@@ -1,0 +1,41 @@
+.pos-0 {
+  top: 0;
+  left: 0;
+}
+.pos-t {
+  top: 10px;
+  left: 0;
+}
+.pos-_l {
+  left: 20px;
+}
+.pos-tl-implicit {
+  top: 10px;
+  left: 20px;
+}
+.pos-tl {
+  top: 10px;
+  left: 20px;
+}
+.pos-br-b {
+  bottom: 10px;
+  right: 0;
+}
+.pos-br-_r {
+  right: 30px;
+}
+.pos-br {
+  bottom: 10px;
+  right: 20px;
+}
+.pos-bl-b {
+  bottom: 30px;
+  left: 0;
+}
+.pos-bl-_l {
+  left: 20px;
+}
+.pos-bl {
+  bottom: 30px;
+  left: 20px;
+}
