@@ -39,3 +39,28 @@
   bottom: 30px;
   left: 20px;
 }
+.pos-rel {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.pos-rel-tl {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.pos-rel-br {
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+}
+.pos-abs {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pos-fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+}

@@ -31,3 +31,24 @@
 	.prop-dash(bottom; @bottom);
 	.prop-dash(right; @right);
 }
+
+.relative (@rest...)
+{
+	position: relative;
+
+	.pos(@rest...);
+}
+
+.absolute (@rest...)
+{
+	position: absolute;
+
+	.pos(@rest...);
+}
+
+.fixed (@rest...)
+{
+	position: fixed;
+
+	.pos(@rest...);
+}
