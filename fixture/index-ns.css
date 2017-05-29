@@ -58,3 +58,9 @@
   height: 75px;
   line-height: 75px;
 }
+.integration-ns-pos {
+  top: 0;
+  top: 10px;
+  left: 0;
+  left: 20px;
+}
