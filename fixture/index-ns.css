@@ -5,6 +5,8 @@
   content: '';
   display: block;
   content: '=';
+  cursor: default;
+  cursor: pointer;
 }
 .integration-ns-flex {
   display: flex;

@@ -5,6 +5,8 @@
   content: '';
   display: block;
   content: 'x';
+  cursor: default;
+  cursor: pointer;
 }
 .integration-flex {
   display: flex;
