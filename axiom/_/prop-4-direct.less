@@ -1,0 +1,65 @@
+
+@import (reference) 'prop-dash';
+
+.prop-4-direct(@prop; @all)
+{
+	.prop-dash(@prop; @all);
+}
+
+.prop-4-direct (@prop; @vert; @horz)
+{
+	& when not (@vert = _) and not (@horz = _)
+	{
+		@{prop}: @vert @horz;
+	}
+	& when (@vert = _) or (@horz = _)
+	{
+		.prop-dash(~'@{prop}-top'; @vert);
+		.prop-dash(~'@{prop}-bottom'; @vert);
+
+		.prop-dash(~'@{prop}-left'; @horz);
+		.prop-dash(~'@{prop}-right'; @horz);
+	}
+}
+
+.prop-4-direct (@prop; @up; @side; @down)
+{
+	& when not (@up = _)
+	   and not (@side = _)
+	   and not (@down = _)
+	{
+		@{prop}: @up @side @down;
+	}
+	& when (@up = _)
+	    or (@side = _)
+	    or (@down = _)
+	{
+		.prop-dash(~'@{prop}-top'; @up);
+
+		.prop-dash(~'@{prop}-left'; @side);
+		.prop-dash(~'@{prop}-right'; @side);
+
+		.prop-dash(~'@{prop}-bottom'; @down);
+	}
+}
+
+.prop-4-direct (@prop; @up; @right; @down; @left)
+{
+	& when not (@up = _)
+	   and not (@right = _)
+	   and not (@down = _)
+	   and not (@left = _)
+	{
+		@{prop}: @up @right @down @left;
+	}
+	& when (@up = _)
+	    or (@right = _)
+	    or (@down = _)
+	    or (@left = _)
+	{
+		.prop-dash(~'@{prop}-top'; @up);
+		.prop-dash(~'@{prop}-right'; @right);
+		.prop-dash(~'@{prop}-bottom'; @down);
+		.prop-dash(~'@{prop}-left'; @left);
+	}
+}

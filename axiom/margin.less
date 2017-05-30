@@ -1,63 +1,7 @@
 
-@import (reference) '_/prop-dash';
+@import (reference) '_/prop-4-direct';
 
-.margin (@all)
+.margin (@rest...)
 {
-	.prop-dash(margin; @all);
-}
-
-.margin (@vert; @horz)
-{
-	& when not (@vert = _) and not (@horz = _)
-	{
-		margin: @vert @horz;
-	}
-	& when (@vert = _) or (@horz = _)
-	{
-		.prop-dash(margin-top; @vert);
-		.prop-dash(margin-bottom; @vert);
-
-		.prop-dash(margin-left; @horz);
-		.prop-dash(margin-right; @horz);
-	}
-}
-
-.margin (@up; @side; @down)
-{
-	& when not (@up = _)
-	   and not (@side = _)
-	   and not (@down = _)
-	{
-		margin: @up @side @down;
-	}
-	& when (@up = _)
-	    or (@side = _)
-	    or (@down = _)
-	{
-		.prop-dash(margin-top; @up);
-		.prop-dash(margin-left; @side);
-		.prop-dash(margin-right; @side);
-		.prop-dash(margin-bottom; @down);
-	}
-}
-
-.margin (@up; @right; @down; @left)
-{
-	& when not (@up = _)
-	   and not (@right = _)
-	   and not (@down = _)
-	   and not (@left = _)
-	{
-		margin: @up @right @down @left;
-	}
-	& when (@up = _)
-	    or (@right = _)
-	    or (@down = _)
-	    or (@left = _)
-	{
-		.prop-dash(margin-top; @up);
-		.prop-dash(margin-right; @right);
-		.prop-dash(margin-bottom; @down);
-		.prop-dash(margin-left; @left);
-	}
+	.prop-4-direct(margin; @rest...);
 }
