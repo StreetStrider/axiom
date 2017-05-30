@@ -7,6 +7,8 @@
   content: '=';
   cursor: default;
   cursor: pointer;
+  user-select: none;
+  pointer-events: none;
 }
 .integration-ns-flex {
   display: flex;
