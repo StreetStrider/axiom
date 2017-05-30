@@ -33,15 +33,40 @@ $ npm i StreetStrider/axiom
 ```
 
 **usage**:
-```css
+```less
 /* import whole package */
 @import (reference) 'node_modules/axiom/axiom/index';
 
 /* or pick axioms */
 @import (reference) 'node_modules/axiom/axiom/display';
 @import (reference) 'node_modules/axiom/axiom/flex';
-```
 
+.component
+{
+	.flex;
+
+	& > .main
+	{
+		.grow;
+	}
+}
+
+/* import with namespace */
+#axiom
+{
+	@import (reference) 'node_modules/axiom/axiom/flex';
+}
+
+.component
+{
+	#axiom > .flex;
+
+	& > .main
+	{
+		#axiom > .grow;
+	}
+}
+```
 
 ## license
 ISC, © Strider, 2017.
