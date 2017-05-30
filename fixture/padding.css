@@ -1,0 +1,68 @@
+.padding-1 {
+  padding: 10px;
+}
+.padding-1_ {
+  present: yes;
+}
+.padding-2 {
+  padding: 10px 20px;
+}
+.padding-2v {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.padding-2h {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.padding-2_ {
+  present: yes;
+}
+.padding-3 {
+  padding: 10px 20px 30px;
+}
+.padding-3u__ {
+  padding-top: 10px;
+}
+.padding-3_s_ {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.padding-3__d {
+  padding-bottom: 30px;
+}
+.padding-3us_ {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.padding-3u_d {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.padding-3_sd {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.padding-3_ {
+  present: yes;
+}
+.padding-4 {
+  padding: 10px 20px 30px 40px;
+}
+.padding-4u_dl {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+.padding-4u_d_ {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.padding-4__d_ {
+  padding-bottom: 30px;
+}
+.padding-4_ {
+  present: yes;
+}
