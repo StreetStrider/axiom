@@ -82,3 +82,8 @@
   white-space: nowrap;
   white-space: pre;
 }
+.integration-ns-margin {
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
