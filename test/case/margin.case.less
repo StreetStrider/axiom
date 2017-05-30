@@ -1,0 +1,104 @@
+
+#axiom
+{
+	@import (reference) '../../axiom/margin';
+}
+
+.margin-1
+{
+	#axiom > .margin(10px);
+}
+
+.margin-1_
+{
+	present: yes;
+	#axiom > .margin(_);
+}
+
+.margin-2
+{
+	#axiom > .margin(10px; 20px);
+}
+
+.margin-2v
+{
+	#axiom > .margin(30px; _);
+}
+
+.margin-2h
+{
+	#axiom > .margin(_; 40px);
+}
+
+.margin-2_
+{
+	present: yes;
+	#axiom > .margin(_; _);
+}
+
+.margin-3
+{
+	#axiom > .margin(10px; 20px; 30px);
+}
+
+.margin-3u__
+{
+	#axiom > .margin(10px; _; _);
+}
+
+.margin-3_s_
+{
+	#axiom > .margin(_; 20px; _);
+}
+
+.margin-3__d
+{
+	#axiom > .margin(_; _; 30px);
+}
+
+.margin-3us_
+{
+	#axiom > .margin(10px; 20px; _);
+}
+
+.margin-3u_d
+{
+	#axiom > .margin(10px; _; 30px);
+}
+
+.margin-3_sd
+{
+	#axiom > .margin(_; 20px; 30px);
+}
+
+.margin-3_
+{
+	present: yes;
+	#axiom > .margin(_; _; _);
+}
+
+.margin-4
+{
+	#axiom > .margin(10px; 20px; 30px; 40px);
+}
+
+.margin-4u_dl
+{
+	#axiom > .margin(10px; _; 30px; 40px);
+}
+
+.margin-4u_d_
+{
+	#axiom > .margin(10px; _; 30px; _);
+}
+
+.margin-4__d_
+{
+	#axiom > .margin(_; _; 30px; _);
+}
+
+.margin-4_
+{
+	present: yes;
+	#axiom > .margin(_; _; _; _);
+}

@@ -1,0 +1,68 @@
+.margin-1 {
+  margin: 10px;
+}
+.margin-1_ {
+  present: yes;
+}
+.margin-2 {
+  margin: 10px 20px;
+}
+.margin-2v {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.margin-2h {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.margin-2_ {
+  present: yes;
+}
+.margin-3 {
+  margin: 10px 20px 30px;
+}
+.margin-3u__ {
+  margin-top: 10px;
+}
+.margin-3_s_ {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.margin-3__d {
+  margin-bottom: 30px;
+}
+.margin-3us_ {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.margin-3u_d {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.margin-3_sd {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.margin-3_ {
+  present: yes;
+}
+.margin-4 {
+  margin: 10px 20px 30px 40px;
+}
+.margin-4u_dl {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+.margin-4u_d_ {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.margin-4__d_ {
+  margin-bottom: 30px;
+}
+.margin-4_ {
+  present: yes;
+}
