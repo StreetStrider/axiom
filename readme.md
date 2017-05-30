@@ -26,5 +26,22 @@ Mixins, which provide adequate abstractions, like `.pos(@top; @left)` or `.wh(@w
 **3**: Using axiomatic mixins allow to write short, well-composed and even poetic definitions
 for elements. It is a good ground for more high-level mixins.
 
+## install & usage
+**install**:
+```sh
+$ npm i StreetStrider/axiom
+```
+
+**usage**:
+```css
+/* import whole package */
+@import (reference) 'node_modules/axiom/axiom/index';
+
+/* or pick axioms */
+@import (reference) 'node_modules/axiom/axiom/display';
+@import (reference) 'node_modules/axiom/axiom/flex';
+```
+
+
 ## license
 ISC, © Strider, 2017.
