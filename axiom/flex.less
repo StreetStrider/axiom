@@ -23,6 +23,7 @@
 	}
 }
 
+
 .grow (@grow: 1)
 {
 	flex-grow: @grow;
@@ -31,4 +32,17 @@
 .shrink (@shrink: 1)
 {
 	flex-shrink: @shrink;
+}
+
+
+.flex--center ()
+{
+	.flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex--row ()
+{
+	flex-direction: row;
 }
