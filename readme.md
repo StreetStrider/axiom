@@ -60,10 +60,17 @@ $ npm i StreetStrider/axiom
 .component
 {
 	#axiom > .flex;
+	/* or */
+	#axiom.flex;
 
 	& > .main
 	{
 		#axiom > .grow;
+	}
+	/* or */
+	& > .main
+	{
+		#axiom.grow;
 	}
 }
 ```
