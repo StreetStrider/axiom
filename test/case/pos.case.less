@@ -19,9 +19,20 @@
 	#axiom > .pos(_; 20px);
 }
 
+.pos-_l-eq
+{
+	present: yes;
+	#axiom > .pos(_; eq);
+}
+
 .pos-tl-implicit
 {
 	#axiom > .pos(10px; 20px);
+}
+
+.pos-tl-implicit-eq
+{
+	#axiom > .pos(30px; eq);
 }
 
 .pos-tl-0
@@ -32,6 +43,11 @@
 .pos-tl
 {
 	#axiom > .pos(tl; 10px; 20px);
+}
+
+.pos-tl-eq
+{
+	#axiom > .pos(tl; 30px; eq);
 }
 
 .pos-br-0
@@ -64,10 +80,22 @@
 	#axiom > .pos(bl; _; 20px);
 }
 
+.pos-bl-_l-eq
+{
+	present: yes;
+	#axiom > .pos(bl; _; eq);
+}
+
 .pos-bl
 {
 	#axiom > .pos(bl; 30px; 20px);
 }
+
+.pos-bl-eq
+{
+	#axiom > .pos(bl; 30px; eq);
+}
+
 
 .pos-rel
 {
@@ -94,6 +122,11 @@
 	#axiom > .relative(br; 10px; 20px);
 }
 
+.pos-rel-br-eq
+{
+	#axiom > .relative(br; 30px; eq);
+}
+
 .pos-abs
 {
 	#axiom > .absolute;
@@ -107,6 +140,11 @@
 .pos-abs-tl
 {
 	#axiom > .absolute(10px; 20px);
+}
+
+.pos-abs-tl-eq
+{
+	#axiom > .absolute(30px; eq);
 }
 
 .pos-fix

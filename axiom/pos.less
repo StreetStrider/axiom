@@ -1,9 +1,10 @@
 
 @import (reference) '_/prop-dash';
+@import (reference) '_/prop-eq';
 
 .pos (@top: 0; @left: 0)
 	when ((isnumber(@top))  or (@top  = _))
-	and  ((isnumber(@left)) or (@left = _))
+	and  ((isnumber(@left)) or (@left = _) or (@left = eq))
 {
 	.pos(tl; @top; @left);
 }
@@ -11,25 +12,25 @@
 .pos (tl; @top: 0; @left: 0)
 {
 	.prop-dash(top; @top);
-	.prop-dash(left; @left);
+	.prop-eq(left; @top; @left);
 }
 
 .pos (bl; @bottom: 0; @left: 0)
 {
 	.prop-dash(bottom; @bottom);
-	.prop-dash(left; @left);
+	.prop-eq(left; @bottom; @left);
 }
 
 .pos (tr; @top: 0; @right: 0)
 {
 	.prop-dash(top; @top);
-	.prop-dash(right; @right);
+	.prop-eq(right; @top; @right);
 }
 
 .pos (br; @bottom: 0; @right: 0)
 {
 	.prop-dash(bottom; @bottom);
-	.prop-dash(right; @right);
+	.prop-eq(right; @bottom; @right);
 }
 
 .relative (@rest...)
