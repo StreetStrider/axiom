@@ -2,12 +2,8 @@
 @import (reference) '_/prop-dash';
 @import (reference) '_/prop-eq';
 
-.wh (@width: _; @height: _) when not (@width = _)
-{
-	.prop-dash(width; @width);
-}
-
 .wh (@width: _; @height: _)
 {
+	.prop-dash(width; @width);
 	.prop-eq(height; @width; @height);
 }
