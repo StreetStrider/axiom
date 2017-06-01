@@ -7,6 +7,8 @@
   content: 'x';
   cursor: default;
   cursor: pointer;
+  color: Black;
+  background-color: White;
   user-select: none;
   pointer-events: none;
 }
