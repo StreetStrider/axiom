@@ -1,0 +1,13 @@
+.tone {
+  color: Black;
+  background-color: White;
+}
+.tone-fc {
+  color: Black;
+}
+.tone-bc {
+  background-color: Orange;
+}
+.tone-empty {
+  present: yes;
+}

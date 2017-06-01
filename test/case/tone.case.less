@@ -1,0 +1,26 @@
+
+#axiom
+{
+	@import (reference) '../../axiom/tone';
+}
+
+.tone
+{
+	#axiom > .tone(Black; White);
+}
+
+.tone-fc
+{
+	#axiom > .tone(Black; _);
+}
+
+.tone-bc
+{
+	#axiom > .tone(_; Orange);
+}
+
+.tone-empty
+{
+	present: yes;
+	#axiom > .tone(_; _);
+}
