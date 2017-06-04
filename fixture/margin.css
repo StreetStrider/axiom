@@ -66,7 +66,9 @@
 .margin-4_ {
   present: yes;
 }
-.margin-center {
-  margin-left: auto;
-  margin-right: auto;
+.margin-center-1 {
+  margin: 0 auto;
+}
+.margin-center-2 {
+  margin: auto;
 }
