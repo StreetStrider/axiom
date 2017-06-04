@@ -13,51 +13,14 @@
   pointer-events: none;
 }
 .integration-flex {
+  flex-direction: column;
+  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   flex-grow: 1;
-  flex-grow: 3;
   flex-shrink: 1;
-  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-}
-.integration-flex > * {
-  flex-grow: 1;
-}
-.integration-flex > * {
-  flex-shrink: 0;
-}
-.integration-flex > * {
-  flex-shrink: 0;
-}
-.integration-flex > * {
-  flex-basis: 200px;
-}
-.integration-flex > * {
-  flex-basis: 200px;
-}
-.integration-flex > * {
-  flex-grow: 1;
-  flex-shrink: 0;
-}
-.integration-flex > * {
-  flex-grow: 1;
-  flex-shrink: 0;
-}
-.integration-flex > * {
-  flex-shrink: 0;
-  flex-basis: 200px;
-}
-.integration-flex > * {
-  flex-shrink: 0;
-  flex-basis: 200px;
-}
-.integration-flex > * {
-  flex: 0 0 auto;
-}
-.integration-flex > * {
-  flex: 1 0 auto;
 }
 .integration-wh {
   height: 50px;

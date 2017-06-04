@@ -1,26 +1,24 @@
 
 @import (reference) '_/prop-dash';
 
-.flex (@grow: _, @shrink: _, @basis: _)
+.flex (...)
 {
 	display: flex;
 }
 
-.flex (@grow: _, @shrink: _, @basis: _)
+.flex (column)
 {
-	& > *
-	{
-		& when (not (@grow = _) and not (@shrink = _) and not (@basis = _))
-		{
-			flex: @grow @shrink @basis;
-		}
-		& when ((@grow = _) or (@shrink = _) or (@basis = _))
-		{
-			.prop-dash(flex-grow; @grow);
-			.prop-dash(flex-shrink; @shrink);
-			.prop-dash(flex-basis; @basis);
-		}
-	}
+	flex-direction: column;
+}
+
+.flex (row-reverse)
+{
+	flex-direction: row-reverse;
+}
+
+.flex (column-reverse)
+{
+	flex-direction: column-reverse;
 }
 
 
@@ -35,14 +33,8 @@
 }
 
 
-.flex--center ()
+.flex (center)
 {
-	.flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.flex--column ()
-{
-	flex-direction: column;
 }

@@ -26,23 +26,12 @@
 .integration-ns-flex
 {
 	#axiom > .flex;
-	#axiom > .flex(1);
-	#axiom > .flex(@shrink: 0);
-	#axiom > .flex(_; 0);
-	#axiom > .flex(@basis: 200px);
-	#axiom > .flex(_; _; 200px);
-	#axiom > .flex(1; 0);
-	#axiom > .flex(@grow: 1; @shrink: 0);
-	#axiom > .flex(@shrink: 0; @basis: 200px);
-	#axiom > .flex(_; 0; 200px);
-	#axiom > .flex(0; 0; auto);
-	#axiom > .flex(1; 0; auto);
+	#axiom > .flex(column);
+	#axiom > .flex(row-reverse);
+	#axiom > .flex(column-reverse);
 	#axiom > .grow;
-	#axiom > .grow(3);
 	#axiom > .shrink;
-	#axiom > .shrink(0);
-	#axiom > .flex--center;
-	#axiom > .flex--column;
+	#axiom > .flex(center);
 }
 
 .integration-ns-wh
