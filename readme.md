@@ -29,7 +29,7 @@ for elements. It is a good ground for more high-level mixins.
 ## install & usage
 **install**:
 ```sh
-$ npm i StreetStrider/axiom
+$ npm i @streetstrider/axiom
 ```
 
 **usage**:

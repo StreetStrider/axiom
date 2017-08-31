@@ -1,9 +1,7 @@
 {
-     "name": "axiom",
-  "version": "0.4.0",
+     "name": "@streetstrider/axiom",
+  "version": "1.0.0",
   "license": "ISC",
-
-  "private":  true,
 
   "author": "Strider <strange.transistor@gmail.com>",
   "description": "Axiomatic LESS/CSS mixins",
