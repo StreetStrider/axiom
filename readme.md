@@ -1,4 +1,7 @@
 # axiom
+[![npm|@streetstrider/axiom](http://img.shields.io/badge/npm-@streetstrider/axiom-CB3837.svg?style=flat-square)](https://www.npmjs.org/package/@streetstrider/axiom)
+[![ISC licensed](http://img.shields.io/badge/license-ISC-brightgreen.svg?style=flat-square)](#license)
+
 Axiom is a set of axiomatic CSS mixins.
 
 ## the idea
