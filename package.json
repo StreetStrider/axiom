@@ -15,8 +15,7 @@
   "files":
   [
     "axiom/",
-    "readme.md",
-    "ISC-LICENSE.txt"
+    "readme.md"
   ],
 
   "scripts":
