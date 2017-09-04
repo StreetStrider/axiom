@@ -5,8 +5,8 @@ var wait_for_all = (...args) => Promise.all(...args)
 var tmpdir = require('os').tmpdir
 var randomstring = require('randomstring').generate
 
-var rootpath = require('rootpath')(__dirname, '..')
-var rootpath_tmp = require('rootpath')(tmpdir(), 'axiom', randomstring(8))
+var rootpath = require('@streetstrider/rootpath')(__dirname, '..')
+var rootpath_tmp = require('@streetstrider/rootpath')(tmpdir(), 'axiom', randomstring(8))
 
 var find = require('globule').find
 var base = require('path').basename
