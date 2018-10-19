@@ -1,4 +1,6 @@
 
+@import (reference) 'prop-dash';
+
 .prop-eq (@prop; @value: _; @value-fallback: _)
 {
 	& when not (@value = _)
@@ -7,9 +9,9 @@
 		{
 			@{prop}: @value;
 		}
-		& when (@value = eq) and not (@value-fallback = _)
+		& when (@value = eq)
 		{
-			@{prop}: @value-fallback;
+			.prop-dash(@prop; @value-fallback);
 		}
 	}
 }
