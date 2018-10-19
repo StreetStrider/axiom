@@ -38,11 +38,11 @@ $ npm i @streetstrider/axiom
 **usage**:
 ```less
 /* import whole package */
-@import (reference) 'node_modules/axiom/axiom/index';
+@import (reference) 'node_modules/@streetstrider/axiom/axiom/index';
 
 /* or pick axioms */
-@import (reference) 'node_modules/axiom/axiom/display';
-@import (reference) 'node_modules/axiom/axiom/flex';
+@import (reference) 'node_modules/@streetstrider/axiom/axiom/display';
+@import (reference) 'node_modules/@streetstrider/axiom/axiom/flex';
 
 .component
 {
@@ -57,7 +57,7 @@ $ npm i @streetstrider/axiom
 /* import with namespace */
 #axiom
 {
-	@import (reference) 'node_modules/axiom/axiom/flex';
+	@import (reference) 'node_modules/@streetstrider/axiom/axiom/flex';
 }
 
 .component
