@@ -26,13 +26,13 @@
   "peerDependencies":
   {
     "less":
-      "2"
+      "2 || 3"
   },
 
   "devDependencies":
   {
     "less":
-      "2",
+      "3",
 
     "@streetstrider/rootpath":
       "1",
