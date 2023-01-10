@@ -1,6 +1,6 @@
 {
      "name": "@streetstrider/axiom",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "ISC",
 
   "author": "Strider <strange.transistor@gmail.com>",
@@ -26,13 +26,13 @@
   "peerDependencies":
   {
     "less":
-      "2 || 3"
+      "2 || 3 || 4"
   },
 
   "devDependencies":
   {
     "less":
-      "3",
+      "4",
 
     "@streetstrider/rootpath":
       "1",

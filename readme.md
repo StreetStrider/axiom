@@ -79,4 +79,4 @@ $ npm i @streetstrider/axiom
 ```
 
 ## license
-ISC, © Strider, 2018.
+ISC, © Strider, 2023.
